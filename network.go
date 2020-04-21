@@ -165,7 +165,7 @@ func (p *Perceptron) dumpHeaders(m int) {
 	}
 	fmt.Printf(" y ")
 	fmt.Printf(" d ")
-	for i := 0; i < m-1; i++ {
+	for i := 0; i < m+1; i++ {
 		fmt.Printf(" w%d' ", i)
 	}
 	fmt.Println()
